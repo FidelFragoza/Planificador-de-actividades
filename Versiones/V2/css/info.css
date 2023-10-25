@@ -1,0 +1,119 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+header {
+    background-color: #3498db;
+    color: white;
+    text-align: center;
+    padding: 1em 0; /* Ajusta el espaciado usando em */
+}
+
+header h1 {
+    margin: 0;
+}
+
+.info-section {
+    width: 90%;
+    max-width: 800px;
+    margin: 1em auto; /* Ajusta el margen usando em */
+    background-color: #fff;
+    padding: 1em;
+    border-radius: 5px;
+    box-shadow: 0 0.2em 0.4em rgba(0, 0, 0, 0.1); /* Ajusta las sombras usando em */
+}
+
+.info-section h2 {
+    color: #3498db;
+}
+
+.flags {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 90%;
+    max-width: 800px;
+    margin: 1em auto; /* Ajusta el margen usando em */
+    background-color: #fff;
+    padding: 1em;
+    border-radius: 5px;
+    box-shadow: 0 0.2em 0.4em rgba(0, 0, 0, 0.1); /* Ajusta las sombras usando em */
+}
+
+.flag {
+    display: flex;
+    align-items: center;
+    gap: 0.2em; /* Ajusta el espacio entre elementos usando em */
+}
+
+.flag-yellow {
+    width: 4em; /* Ajusta el tamaño de las banderas usando em */
+    height: 4em;
+} 
+
+.flag-blue {
+    width: 4em; /* Ajusta el tamaño de las banderas usando em */
+    height: 4em;
+    filter: hue-rotate(120deg)
+} 
+
+.flag-green {
+    width: 4em; /* Ajusta el tamaño de las banderas usando em */
+    height: 4em;
+    filter: hue-rotate(60deg)
+}
+
+.delete {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 90%;
+    max-width: 800px;
+    margin: 1em auto; /* Ajusta el margen usando em */
+    background-color: #fff;
+    padding: 1em;
+    border-radius: 5px;
+    box-shadow: 0 0.2em 0.4em rgba(0, 0, 0, 0.1); /* Ajusta las sombras usando em */
+}
+
+.img-delete {
+    width: 12em; /* Ajusta el tamaño de las banderas usando em */
+    height: 9em;
+}
+
+.Duration {
+    padding: 1em;
+}
+
+.img-deshacer {
+    width: 10em; /* Ajusta el tamaño de las banderas usando em */
+    height: 6em;
+}
+
+.calendar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 90%;
+    max-width: 800px;
+    margin: 1em auto; /* Ajusta el margen usando em */
+    background-color: #fff;
+    padding: 1em;
+    border-radius: 5px;
+    box-shadow: 0 0.2em 0.4em rgba(0, 0, 0, 0.1); /* Ajusta las sombras usando em */
+}
+
+
+.img-eventos {
+    width: 12em; /* Ajusta el tamaño de las banderas usando em */
+    height: 9em;
+}
+
+.img-calendario {
+    width: 11em; /* Ajusta el tamaño de las banderas usando em */
+    height: 9em;
+}

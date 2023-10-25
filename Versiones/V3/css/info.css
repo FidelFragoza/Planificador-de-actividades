@@ -1,0 +1,257 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+header {
+    background-color: #3498db;
+    color: white;
+    text-align: center;
+    padding: 1em 0; /* Ajusta el espaciado usando em */
+}
+
+header h1 {
+    margin: 0;
+}
+
+.info-section {
+    width: 90%;
+    max-width: 800px;
+    margin: 1em auto; /* Ajusta el margen usando em */
+    background-color: #fff;
+    padding: 1em;
+    border-radius: 5px;
+    box-shadow: 0 0.2em 0.4em rgba(0, 0, 0, 0.1); /* Ajusta las sombras usando em */
+}
+
+.info-section h2 {
+    color: #3498db;
+}
+
+.new-task {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 90%;
+    max-width: 800px;
+    margin: 1em auto; /* Ajusta el margen usando em */
+    background-color: #fff;
+    padding: 1em;
+    border-radius: 5px;
+    box-shadow: 0 0.2em 0.4em rgba(0, 0, 0, 0.1); /* Ajusta las sombras usando em */
+}
+
+.title {
+    display: flex;
+    flex-direction: column; /* Cambia la dirección de los elementos a una columna */
+    align-items: center;
+    width: 90%;
+    max-width: 800px;
+    margin: 1em auto;
+    background-color: #fff;
+    padding: 1em;
+    border-radius: 5px;
+    box-shadow: 0 0.2em 0.4em rgba(0, 0, 0, 0.1);
+}
+
+.image-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%; /* Asegúrate de que las imágenes ocupen todo el ancho del contenedor */
+}
+
+.img-new-task {
+    width: 9em;
+    height: 4.2em;
+}
+
+
+.img-task-created {
+    width: 20em; /* Ajusta el tamaño de las banderas usando em */
+    height: 4.2em;
+}
+
+.flags {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 90%;
+    max-width: 800px;
+    margin: 1em auto; /* Ajusta el margen usando em */
+    background-color: #fff;
+    padding: 1em;
+    border-radius: 5px;
+    box-shadow: 0 0.2em 0.4em rgba(0, 0, 0, 0.1); /* Ajusta las sombras usando em */
+}
+
+.flag {
+    display: flex;
+    align-items: center;
+    gap: 0.2em; /* Ajusta el espacio entre elementos usando em */
+}
+
+.flag-red {
+    width: 4em; /* Ajusta el tamaño de las banderas usando em */
+    height: 4em;
+} 
+
+.flag-yellow {
+    width: 4em; /* Ajusta el tamaño de las banderas usando em */
+    height: 4em;
+
+} 
+
+.flag-green {
+    width: 4em; /* Ajusta el tamaño de las banderas usando em */
+    height: 4em;
+
+}
+
+.delete {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 90%;
+    max-width: 800px;
+    margin: 1em auto; /* Ajusta el margen usando em */
+    background-color: #fff;
+    padding: 1em;
+    border-radius: 5px;
+    box-shadow: 0 0.2em 0.4em rgba(0, 0, 0, 0.1); /* Ajusta las sombras usando em */
+}
+
+.img-delete {
+    width: 12em; /* Ajusta el tamaño de las banderas usando em */
+    height: 9em;
+}
+
+.Duration {
+    padding: 1em;
+}
+
+.img-deshacer {
+    width: 10em; /* Ajusta el tamaño de las banderas usando em */
+    height: 6em;
+}
+
+.calendar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 90%;
+    max-width: 800px;
+    margin: 1em auto; /* Ajusta el margen usando em */
+    background-color: #fff;
+    padding: 1em;
+    border-radius: 5px;
+    box-shadow: 0 0.2em 0.4em rgba(0, 0, 0, 0.1); /* Ajusta las sombras usando em */
+}
+
+
+.img-eventos {
+    width: 12em; /* Ajusta el tamaño de las banderas usando em */
+    height: 9em;
+}
+
+.img-calendario {
+    width: 11em; /* Ajusta el tamaño de las banderas usando em */
+    height: 9em;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+/* Estilos generales para encabezados */
+h1, h2, h3, h4 {
+    font-family: 'Arial', sans-serif;
+    color: #3498db;
+    margin: 0;
+}
+
+/* Estilos generales para márgenes y relleno */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 1em;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0.2em 0.4em rgba(0, 0, 0, 0.1);
+}
+
+/* Estilos para la cabecera */
+header {
+    background-color: #3498db;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+}
+
+/* Estilos para la sección de información */
+.info-section {
+    background-color: #f9f9f9;
+}
+
+/* Estilos para los íconos y títulos en cada sección */
+.title h3, .delete h4, .calendar h4 {
+    font-weight: bold;
+}
+
+/* Estilos para los íconos en cada sección */
+.img-new-task, .img-task-created, .img-flag, .img-delete, .img-deshacer, .img-eventos, .img-calendario {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+/* Estilos para las banderas de estados */
+.flags {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.flag {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5em;
+}
+
+.flag-red img {
+    background-color: #ffcc00;
+    border: 2px solid #ffcc00;
+    border-radius: 50%;
+    padding: 0.5em;
+}
+
+.flag-yellow img {
+    background-color: #66ccff;
+    border: 2px solid #66ccff;
+    border-radius: 50%;
+    padding: 0.5em;
+}
+
+.flag-green img {
+    background-color: #66ff99;
+    border: 2px solid #66ff99;
+    border-radius: 50%;
+    padding: 0.5em;
+}
+
+/* Efecto de transición suave para las banderas de estado */
+.flag img {
+    transition: transform 0.3s ease;
+}
+
+.flag img:hover {
+    transform: scale(1.1);
+}

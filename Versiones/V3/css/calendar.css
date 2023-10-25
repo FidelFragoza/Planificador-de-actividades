@@ -1,0 +1,12 @@
+/* Modo oscuro con tonos de gris */
+body, #calendar {
+    background-color: #333; /* Fondo oscuro de tono gris */
+    color: #ccc; /* Texto de tono gris claro */
+  }
+  .fc-dayGrid-view, .fc-dayGrid-day, .fc-dayGrid-day-top, .fc-dayGrid-day-frame {
+    background-color: #444; /* Fondo de celdas de días de tono gris más oscuro */
+    border-color: #555; /* Borde de celdas de días de tono gris */
+  }
+  .fc-dayGrid-day-number, .fc-dayGrid-day-event {
+    color: #fff; /* Texto en celdas de días y eventos en tono blanco */
+  }
